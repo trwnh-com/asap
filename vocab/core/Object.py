@@ -1,5 +1,8 @@
 class Object:
+    null = None
     type = "Object"
+    def __init__(self):
+        print("New object created")
     id = null
     
     attachment = null
