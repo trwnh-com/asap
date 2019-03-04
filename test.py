@@ -1,5 +1,8 @@
-from vocab.core.Object import Object
+from vocab.core.OrderedCollectionPage import OrderedCollectionPage
+from vocab.core.OrderedCollection import OrderedCollection
 
-o = Object()
-o.id = 1
-print(o.summary)
+page = OrderedCollectionPage()
+collection = OrderedCollection()
+page.partOf = collection
+collection.id = 2
+print("part of " + page.partOf.type + " " + str(page.partOf.id))
