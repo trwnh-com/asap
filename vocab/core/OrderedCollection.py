@@ -8,4 +8,5 @@ from vocab.core.Collection import Collection
 null = None # translation into python syntax bc i'm lazy
 
 class OrderedCollection(Collection):
-    type = "OrderedCollection"
+    def __init__(self, type="OrderedCollection"):
+        self.type = type

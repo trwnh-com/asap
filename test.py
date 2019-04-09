@@ -1,8 +1,15 @@
-from vocab.core.OrderedCollectionPage import OrderedCollectionPage
-from vocab.core.OrderedCollection import OrderedCollection
+from pyld import jsonld as jld
+import simplejson as json
+import requests
+import pprint
 
-page = OrderedCollectionPage()
-collection = OrderedCollection()
-page.partOf = collection
-collection.id = 2
-print("part of " + page.partOf.type + " " + str(page.partOf.id))
+# url = "https://mastodon.social/@trwnh.json"
+# response = requests.get(url)
+# test = response.json()
+
+# test["name"] = "infinite love Ⴟ"
+
+# pp = pprint.PrettyPrinter(indent=2)
+# pp.pprint(test)
+
+print("Ⴟ").decode('utf-8')

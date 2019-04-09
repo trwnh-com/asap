@@ -10,6 +10,6 @@ from vocab.core.CollectionPage import CollectionPage
 null = None # translation into python syntax bc i'm lazy
 
 class OrderedCollectionPage(OrderedCollection, CollectionPage):
-    type = "OrderedCollectionPage"
-    partOf: OrderedCollection
-    startIndex = null
+
+    def __init__(self, type="OrderedCollectionPage"):
+        self.type = type

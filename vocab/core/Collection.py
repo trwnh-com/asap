@@ -10,7 +10,8 @@ from vocab.core.Object import Object
 null = None # translation into python syntax bc i'm lazy
 
 class Collection(Object):
-    type = "Collection"
+    def __init__(self, type="Collection"):
+        self.type = type
 
     totalItems = null
     current = null
