@@ -9,8 +9,7 @@
 null = None # translation into python syntax bc i'm lazy
 
 class Object:
-    def __init__(self, type="Object"):
-        self.type = type
+    type = "Object"
     id = null # every Object needs one of these
     
     attachment = null
