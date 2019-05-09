@@ -5,7 +5,7 @@
 #
 # Extends: Activity
 
-from vocab.core.Activity import Activity
+from Activity import Activity
 null = None # translation into python syntax bc i'm lazy
 
 class IntransitiveActivity(Activity):

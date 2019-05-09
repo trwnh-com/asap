@@ -6,7 +6,7 @@
 # Extends: Object
 
 
-from vocab.core.Object import Object
+from Object import Object
 null = None # translation into python syntax bc i'm lazy
 
 class Collection(Object):

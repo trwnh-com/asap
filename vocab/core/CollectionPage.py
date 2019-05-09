@@ -5,7 +5,7 @@
 #
 # Extends: Collection
 
-from vocab.core.Collection import Collection
+from Collection import Collection
 null = None # translation into python syntax bc i'm lazy
 
 class CollectionPage(Collection):
